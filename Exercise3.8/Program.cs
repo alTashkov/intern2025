@@ -7,7 +7,7 @@
         int number = int.Parse(Console.ReadLine());
         while (number > 100)
         {
-            Console.WriteLine("Number must be less than 100]!");
+            Console.WriteLine("Number must be less than 100!");
             Console.Write("Please re-enter the number: ");
             number = int.Parse(Console.ReadLine());
         }
